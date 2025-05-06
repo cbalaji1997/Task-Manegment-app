@@ -1,0 +1,19 @@
+.kanban-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 20px;
+  border: 2px solid red;
+  flex-wrap: wrap; /* Allows responsive wrapping on smaller screens */
+}
+
+/* Optional: Standardize column styles */
+.kanban-column {
+  flex: 1;
+  min-width: 250px;
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
